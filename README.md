@@ -1,9 +1,8 @@
-# python_discord_logger_rewrite
-https://github.com/chinnichaitanya/python-discord-logger is the original owner of this module and repository. 
----
-this version is intended for personal use only
-this version removes some requirements like Host which i don't like at all
----
+# python_discord_logger_rewrite. 
+Disclaimer: This module is rewritten edition of https://github.com/chinnichaitanya/python-discord-logger. 
+
+Kindly Install the above link module for the use of discord_logger module. This version is just a rewritten edition as I have made few changes in it. 
 
 Refer: https://github.com/chinnichaitanya/python-discord-logger
-the above link is the original owner of this module. Kindly use that :)
+
+The above link is the original owner of this module.
