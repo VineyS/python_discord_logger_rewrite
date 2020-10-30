@@ -5,9 +5,11 @@ Note: According the owner's MIT License Condition, the module can be modified an
 
 ## Changes Made From Original Edition:
 ![Original](https://i.imgur.com/1iLTjSN.png)
+
 Before There was a section called Host which displayed the HostName of the Computer.
 
-This rewritten edition removes the host section
+This rewritten edition removes the host section.
+
 
 ## Usage: 
 Refer to : https://pypi.org/project/discord-logger/
