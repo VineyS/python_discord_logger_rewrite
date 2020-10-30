@@ -1,5 +1,3 @@
-from socket import gethostname
-
 from discord_webhook import DiscordEmbed, DiscordWebhook
 from yaml import dump
 
@@ -51,7 +49,6 @@ class DiscordLogger:
         if self.service_environment is not None:
             self.service_environment = str(self.service_environment)
 
-        self.host_name = gethostname()
 
         self.default_level = kwargs.get("default_level")
         if self.default_level not in self.COLORS.keys():
@@ -104,8 +101,6 @@ class DiscordLogger:
 
         if self.service_environment is not None:
             embed.add_embed_field(name="Environment", value=self.service_environment)
-        if self.host_name is not None:
-            embed.add_embed_field(name="Host", value=self.host_name)
 
         embed.set_timestamp()
 
