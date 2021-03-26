@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/VineyS/python_discord_logger_rewrite",
     packages=setuptools.find_packages(),
-    install_requires=["discord-webhook == 0.8.0", "pyyaml == 5.3.1"],
+    install_requires=["discord-webhook == 0.8.0", "pyyaml == 5.4"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
